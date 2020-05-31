@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="jumbotron border rounded-lg">
+            <div>
+                <h1 class="text-light">Your Weather Forecast</h1>
+            </div>
+        </header><hr>
+        <div class="text-center bg-light border rounded-lg" id="search-div">
+            <h4>Search For a City:</h4>
+            <input id="search-term" placeholder="Enter the city name"><br>
+            <br>
+            <button id="search-btn" type="button" class="btn btn-outline-dark">Search</button><br>
+            <ul id="city-list" style="list-style: none;" class="text-center"></ul>
+        </div>
+        <hr>
+        <div class="main-content col-md-12 border rounded-lg bg-light" style="padding: 1.5rem;">
+            <div class="jumbotron" id="current-day-forecast" >
+            </div>
+            <div class="jumbotron">
+                <div class="row" id="five-day-forecast"></div>
+            </div>
+        </div>
+        <div class="uv-index">
+            <p class="uv-warning"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
