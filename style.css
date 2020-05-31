@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: #76D7C4;
+    text-align: center;
+    
+};
+
+#search-div {
+    background-color: black;
+}
+
+#weather-icon {
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
