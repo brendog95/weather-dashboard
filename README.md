@@ -5,8 +5,8 @@ Directions:
 Enter the desired location into the search bar to get the current weather forecast as well as a 5 day forecast so you can plan your week out!
 
 Screenshots of my Dashboard:
-![screenshot1](./assets/images/main-site-screenshot.png)
-![screenshot2](./assets/images/with-city-input-screenshot.png)
+![screenshot1](https://github.com/brendog95/weather-dashboard/blob/master/assets/images/main-site-screenshot.PNG)
+![screenshot2](https://github.com/brendog95/weather-dashboard/blob/master/assets/images/with-city-input-screenshot.PNG)
 
 
 
